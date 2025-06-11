@@ -1,0 +1,189 @@
+---
+// Footer Component
+import WhatsAppIcon from './WhatsAppIcon.astro';
+---
+
+<footer class="bg-gray-900 text-white">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      
+      <!-- Brand & Description -->
+      <div class="lg:col-span-2">
+        <div class="mb-6">
+          <h3 class="text-2xl font-display font-bold text-white mb-4">
+            Alexandra Palacios
+          </h3>
+          <p class="text-gray-300 text-lg leading-relaxed max-w-md">
+            Logopeda especializada en terapia miofuncional con más de 17 años de experiencia en Segovia.
+          </p>
+        </div>
+        
+        <!-- Contact Info -->
+        <div class="space-y-3">
+          <div class="flex items-center">
+            <svg class="w-5 h-5 text-primary-400 mr-3" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+            </svg>
+            <a href="tel:+34614417513" class="text-gray-300 hover:text-white transition-colors duration-200">
+              614 41 75 13
+            </a>
+          </div>
+          <div class="flex items-center">
+            <svg class="w-5 h-5 text-primary-400 mr-3" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+            </svg>
+            <a href="mailto:alexandrapz.logopeda@gmail.com" class="text-gray-300 hover:text-white transition-colors duration-200">
+              alexandrapz.logopeda@gmail.com
+            </a>
+          </div>
+          <div class="flex items-start">
+            <svg class="w-5 h-5 text-primary-400 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+            </svg>
+            <div class="text-gray-300">
+              <p>Clínica Dra. Díaz Sastre</p>
+              <p>C/ Ramón y Cajal, 1</p>
+              <p>Segovia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h4 class="text-lg font-semibold text-white mb-4">Navegación</h4>
+        <ul class="space-y-2">
+          <li>
+            <a href="#inicio" class="text-gray-300 hover:text-white transition-colors duration-200">
+              Inicio
+            </a>
+          </li>
+          <li>
+            <a href="#sobre-mi" class="text-gray-300 hover:text-white transition-colors duration-200">
+              Sobre mí
+            </a>
+          </li>
+          <li>
+            <a href="#servicios" class="text-gray-300 hover:text-white transition-colors duration-200">
+              Servicios
+            </a>
+          </li>
+          <li>
+            <a href="#precios" class="text-gray-300 hover:text-white transition-colors duration-200">
+              Precios
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/34614417513" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-200">
+              WhatsApp
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div>
+        <h4 class="text-lg font-semibold text-white mb-4">Servicios</h4>
+        <ul class="space-y-2">
+          <li>
+            <span class="text-gray-300">Deglución Infantil</span>
+          </li>
+          <li>
+            <span class="text-gray-300">Disfagia Adultos</span>
+          </li>
+          <li>
+            <span class="text-gray-300">Articulación y Fonética</span>
+          </li>
+          <li>
+            <span class="text-gray-300">Entrenamiento Vocal</span>
+          </li>
+          <li>
+            <span class="text-gray-300">Parálisis Facial</span>
+          </li>
+          <li>
+            <span class="text-gray-300">Terapia Grupal</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Social Links & CTA -->
+    <div class="border-t border-gray-700 pt-8 mt-8">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        
+        <!-- Social Links -->
+        <div class="flex items-center space-x-4 mb-6 md:mb-0">
+          <span class="text-gray-300 mr-2">Sígueme en:</span>
+          <a 
+            href="https://wa.me/34614417513" 
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-green-600 hover:bg-green-700 p-2 rounded-full transition-colors duration-200"
+            aria-label="WhatsApp"
+          >
+            <WhatsAppIcon class="w-6 h-6" />
+          </a>
+          <a 
+            href="#" 
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-blue-600 hover:bg-blue-700 p-2 rounded-full transition-colors duration-200"
+            aria-label="LinkedIn"
+          >
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </a>
+          <a 
+            href="#" 
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-red-600 hover:bg-red-700 p-2 rounded-full transition-colors duration-200"
+            aria-label="Google"
+          >
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+              <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+              <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+              <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Quick CTA -->
+        <div class="text-center md:text-right">
+          <a 
+            href="https://wa.me/34614417513?text=Hola%20Alexandra,%20me%20gustar%C3%ADa%20solicitar%20una%20cita" 
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors duration-200 font-semibold"
+          >
+            <WhatsAppIcon class="w-6 h-6 mr-2 floating" />
+            Reservar Cita
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Copyright -->
+    <div class="border-t border-gray-700 pt-6 mt-6">
+      <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
+        <div class="mb-4 md:mb-0">
+          <p>&copy; 2025 Alexandra Palacios. Todos los derechos reservados.</p>
+        </div>
+        <div class="flex space-x-6">
+          <a href="#" class="hover:text-white transition-colors duration-200">
+            Política de Privacidad
+          </a>
+          <a href="#" class="hover:text-white transition-colors duration-200">
+            Términos de Uso
+          </a>
+          <a href="#" class="hover:text-white transition-colors duration-200">
+            Cookies
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

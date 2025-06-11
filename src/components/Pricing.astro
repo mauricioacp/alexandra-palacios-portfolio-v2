@@ -1,0 +1,292 @@
+---
+// Pricing Section Component
+import WhatsAppIcon from './WhatsAppIcon.astro';
+---
+
+<section id="precios" class="py-16 md:py-24 bg-white">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Section Header -->
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-gray-900 mb-6">
+        Tarifas <span class="text-primary-600">transparentes</span>
+      </h2>
+      <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+        Precios claros y competitivos para todos mis servicios. Inversión en tu salud y bienestar.
+      </p>
+    </div>
+
+    <!-- Pricing Cards -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Individual Session -->
+      <div class="bg-white rounded-2xl border-2 border-gray-200 p-8 hover:border-primary-300 transition-colors duration-300">
+        <div class="text-center mb-8">
+          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Sesión Individual</h3>
+          <div class="mb-4">
+            <span class="text-4xl font-bold text-gray-900">40€</span>
+          </div>
+          <p class="text-gray-600">Terapia logopédica personalizada</p>
+        </div>
+        
+        <ul class="space-y-3 mb-8">
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-700">40 minutos de duración</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-700">Tratamiento personalizado</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-700">Voz, deglución o articulación</span>
+          </li>
+        </ul>
+        
+        <a 
+          href="https://wa.me/34614417513?text=Hola%20Alexandra,%20me%20gustar%C3%ADa%20reservar%20una%20sesi%C3%B3n%20individual" 
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full bg-primary-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200 text-center block"
+        >
+          Reservar Sesión
+        </a>
+      </div>
+
+      <!-- Neurological Individual -->
+      <div class="bg-white rounded-2xl border-2 border-gray-200 p-8 hover:border-primary-300 transition-colors duration-300">
+        <div class="text-center mb-8">
+          <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-red-600" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Tratamiento Neurológico</h3>
+          <div class="mb-4">
+            <span class="text-4xl font-bold text-gray-900">40€</span>
+          </div>
+          <p class="text-gray-600">Rehabilitación especializada</p>
+        </div>
+        
+        <ul class="space-y-3 mb-8">
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-700">40 minutos de duración</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-700">Patología neurológica</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-700">Funciones orofaciales</span>
+          </li>
+        </ul>
+        
+        <a 
+          href="https://wa.me/34614417513?text=Hola%20Alexandra,%20necesito%20informaci%C3%B3n%20sobre%20tratamiento%20neurol%C3%B3gico" 
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full bg-primary-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200 text-center block"
+        >
+          Consultar
+        </a>
+      </div>
+
+      <!-- Intensive Neurological -->
+      <div class="bg-white rounded-2xl border-2 border-primary-300 p-8 relative overflow-hidden">
+        <!-- Popular badge -->
+        <div class="absolute top-0 right-0 bg-primary-600 text-white px-4 py-1 text-sm font-semibold">
+          Intensivo
+        </div>
+        
+        <div class="text-center mb-8">
+          <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-2V2c0-.55-.45-1-1-1s-1 .45-1 1v2H9V2c0-.55-.45-1-1-1s-1 .45-1 1v2H5c-1.1 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Tratamiento Intensivo</h3>
+          <div class="mb-4">
+            <span class="text-4xl font-bold text-gray-900">75€</span>
+          </div>
+          <p class="text-gray-600">2 sesiones por semana</p>
+        </div>
+        
+        <ul class="space-y-3 mb-8">
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-700">2x por semana (40 min c/u)</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-700">Ideal para ictus</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-700">Resultados más rápidos</span>
+          </li>
+        </ul>
+        
+        <a 
+          href="https://wa.me/34614417513?text=Hola%20Alexandra,%20me%20interesa%20el%20tratamiento%20intensivo" 
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full bg-primary-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200 text-center block"
+        >
+          Reservar Intensivo
+        </a>
+      </div>
+
+      <!-- Assessment -->
+      <div class="bg-white rounded-2xl border-2 border-gray-200 p-8 hover:border-primary-300 transition-colors duration-300">
+        <div class="text-center mb-8">
+          <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 2 2h8c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Valoración + Informe</h3>
+          <div class="mb-4">
+            <span class="text-4xl font-bold text-gray-900">100€</span>
+          </div>
+          <p class="text-gray-600">Evaluación completa</p>
+        </div>
+        
+        <ul class="space-y-3 mb-8">
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-700">Evaluación neurológica</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-700">Diagnóstico profesional</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-700">Informe detallado incluido</span>
+          </li>
+        </ul>
+        
+        <a 
+          href="https://wa.me/34614417513?text=Hola%20Alexandra,%20necesito%20una%20valoraci%C3%B3n%20neurol%C3%B3gica" 
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full bg-primary-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200 text-center block"
+        >
+          Solicitar Valoración
+        </a>
+      </div>
+
+      <!-- Group Therapy -->
+      <div class="bg-white rounded-2xl border-2 border-gray-200 p-8 hover:border-primary-300 transition-colors duration-300">
+        <div class="text-center mb-8">
+          <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A2.999 2.999 0 0016.29 6c-.88 0-1.66.55-1.95 1.37L11.5 15h2.25v7h2.25z"/>
+              <path d="M12.5 11.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5S11 9.17 11 10s.67 1.5 1.5 1.5z"/>
+              <path d="M5.5 6c1.11 0 2-.89 2-2s-.89-2-2-2-2 .89-2 2 .89 2 2 2zm2.5 16v-7h2.25l-2.25-6.75A2.996 2.996 0 005.25 6c-.88 0-1.66.55-1.95 1.37L.5 15H3v7h2.5z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Terapia Grupal</h3>
+          <div class="mb-4">
+            <span class="text-4xl font-bold text-gray-900">35€</span>
+            <span class="text-lg text-gray-600">/persona</span>
+          </div>
+          <p class="text-gray-600">2-3 personas</p>
+        </div>
+        
+        <ul class="space-y-3 mb-8">
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-700">40 minutos de duración</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-700">Adultos mayores</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-700">Apoyo mutuo</span>
+          </li>
+        </ul>
+        
+        <a 
+          href="https://wa.me/34614417513?text=Hola%20Alexandra,%20me%20interesa%20la%20terapia%20grupal" 
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full bg-primary-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200 text-center block"
+        >
+          Consultar Disponibilidad
+        </a>
+      </div>
+    </div>
+
+    <!-- Additional Info -->
+    <div class="mt-16 text-center">
+      <div class="bg-gray-50 rounded-2xl p-8 max-w-4xl mx-auto">
+        <h3 class="text-2xl font-display font-bold text-gray-900 mb-6">
+          ¿Tienes dudas sobre qué tratamiento necesitas?
+        </h3>
+        <p class="text-lg text-gray-600 mb-8">
+          Cada caso es único. Te ayudo a identificar el tratamiento más adecuado para tu situación específica.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a 
+            href="https://wa.me/34614417513?text=Hola%20Alexandra,%20me%20gustar%C3%ADa%20una%20consulta%20para%20evaluar%20mi%20caso" 
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center px-6 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors duration-200"
+          >
+            <WhatsAppIcon class="w-6 h-6 mr-2 floating" />
+            Consulta Gratuita
+          </a>
+          <a 
+            href="tel:+34614417513" 
+            class="inline-flex items-center justify-center px-6 py-3 border-2 border-primary-600 text-primary-600 font-semibold rounded-lg hover:bg-primary-50 transition-colors duration-200"
+          >
+            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+            </svg>
+            Llamar: 614 41 75 13
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
