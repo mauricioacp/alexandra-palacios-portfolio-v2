@@ -5,6 +5,9 @@ import Hero from '../components/Hero.astro';
 import About from '../components/About.astro';
 import Services from '../components/Services.astro';
 import Pricing from '../components/Pricing.astro';
+import TestimonialsCarousel from '../components/TestimonialsCarousel.astro';
+import InteractiveStats from '../components/InteractiveStats.astro';
+import ParallaxSection from '../components/ParallaxSection.astro';
 import Footer from '../components/Footer.astro';
 import FloatingWhatsApp from '../components/FloatingWhatsApp.astro';
 import '../styles/global.css';
@@ -19,6 +22,26 @@ import '../styles/global.css';
     <Hero />
     <About />
     <Services />
+    <InteractiveStats />
+    <ParallaxSection backgroundImage="/alexandra.jpg" overlayOpacity={0.8}>
+      <div class="text-center">
+        <h2 class="text-4xl md:text-5xl font-display font-bold mb-6">
+          Transformando vidas a través de la comunicación
+        </h2>
+        <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
+          Cada paciente es único y merece un tratamiento personalizado para alcanzar su máximo potencial comunicativo
+        </p>
+        <a 
+          href="https://wa.me/34614417513?text=Hola%20Alexandra,%20me%20interesa%20conocer%20más%20sobre%20tus%20terapias" 
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center px-8 py-4 bg-white text-primary-600 text-lg font-semibold rounded-lg hover:bg-gray-100 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
+        >
+          Conoce mi metodología
+        </a>
+      </div>
+    </ParallaxSection>
+    <TestimonialsCarousel />
     <Pricing />
   </main>
   <Footer />
